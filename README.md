@@ -1,1 +1,1 @@
-# Titanic-Survival-Prediction-with-Logistic-Regression
+## Titanic Survival Prediction with Logistic Regression
