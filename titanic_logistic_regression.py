@@ -142,6 +142,7 @@ df = df.apply(lambda x: x.fillna(x.mode()[0]) if (x.dtype == "O" and len(x.uniqu
 ###########################
 # 2.4 LABEL ENCODING
 ###########################
+
 # Each data is assigned a unique integer in alphabetical order.
 
 binary_cols = [col for col in df.columns if df[col].dtype not in [int, float]
@@ -153,6 +154,7 @@ for col in binary_cols:
 ###########################
 # 2.5 RARE ENCODING
 ###########################
+
 # It is an effort to consolidate the few classes.
 
 df = rare_encoder(df, 0.01)
@@ -160,6 +162,7 @@ df = rare_encoder(df, 0.01)
 ###########################
 # 2.6 ONE-HOT ENCODING
 ###########################
+
 # The main purpose is to meet the demands of the algorithms and to eliminate the measurement problems that may occur or to produce a higher quality data.
 
 ohe_cols = [col for col in df.columns if 10 >= df[col].nunique() > 2]
