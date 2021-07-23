@@ -5,39 +5,39 @@
 
 
 ```diff
-# The dataset contains information about the people involved in the Titanic shipwreck.
+ The dataset contains information about the people involved in the Titanic shipwreck.
 
-# It consists of 768 observations and 12 variables.
+ It consists of 768 observations and 12 variables.
 
-# The target variable is set as "Survived";
+ The target variable is set as "Survived";
 
-# - 1 person to survive,
-# - 0 indicates the death of the person. 
+ - 1 person to survive,
+ - 0 indicates the death of the person. 
 ```
 
 
 ### `Variables`
-
 ```diff
-+ Survived - Survival
+
+ **Survived** - Survival
   - 1 survived, 0 did not survive
 
-+ Pclass- Ticket Class
+ **Pclass**- Ticket Class
   - 1 = 1st class, 2 = 2nd class
 
-+ Sex- Gender
+ **Sex**- Gender
  
-+ Age
+**Age**
 
-+ Sibsp - Number of siblings/wives on Titanic
+ **Sibsp** - Number of siblings/wives on Titanic
 
-+ Parch - Number of parents/children on Titanic
+ **Parch** - Number of parents/children on Titanic
  
-+ Embarke`- Port where the passenger embarks
+ **Embarke**- Port where the passenger embarks
 ( C = Cherbourg, Q = Queenstown, S = Southampton)
 
-+ Mouse- Ticket Fee
+ **Mouse**- Ticket Fee
 
-+ Cabin- Cabin Number
+ **Cabin** - Cabin Number
+
 ```
-
