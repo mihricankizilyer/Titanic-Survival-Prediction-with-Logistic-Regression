@@ -4,7 +4,7 @@
 
 
 
-```diff
+
  The dataset contains information about the people involved in the Titanic shipwreck.
 
  It consists of 768 observations and 12 variables.
@@ -13,11 +13,10 @@
 
  - 1 person to survive,
  - 0 indicates the death of the person. 
-```
+
 
 
 ### `Variables`
-```diff
 
  **Survived** - Survival
   - 1 survived, 0 did not survive
@@ -40,4 +39,3 @@
 
  **Cabin** - Cabin Number
 
-```
