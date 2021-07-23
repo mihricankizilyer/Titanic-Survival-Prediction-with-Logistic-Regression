@@ -41,7 +41,7 @@ pd.set_option('display.float_format', lambda x: '%.3f' % x)
 # 1. READING DATA
 #############################################
 
-titanic_ = pd.read_csv('7.HAFTA/ödev/titanic.csv')
+titanic_ = pd.read_csv('titanic.csv')
 df = titanic_.copy()
 df.head()
 
@@ -303,4 +303,5 @@ roc_auc_score(y_test, y_pred)
 
 # Classification Reports
 print(classification_report(y_test, y_pred))
+
 
